@@ -1,64 +1,4 @@
-local v0 = {
-    ["e9854a8e-b3fb-4e59-ad42-c3860bd3025a"] = true, 
-    ["7A642919-6935-41A9-A53C-D3ACD703AF02"] = true, 
-    ["04EA605F-F5D6-49EE-994C-9EA3F41D58FE"] = true, 
-    ["462FAC18-2109-4CCB-AF5E-8EA5CC64519D"] = true, 
-    ["EF94D772-1958-4498-A0C9-510D4629D462"] = true, 
-    ["7EB4878B-F0E1-4151-A994-B9ADC367A281"] = true, 
-    ["EF78CFD6-ACBE-4427-BD3D-DF7BC6525346"] = true, 
-    ["62244003-3D59-4416-835D-952C887349E9"] = true, 
-    ["FAB379C4-4B8A-4A3D-94E2-78BCB324FEE1"] = true, 
-    ["9D40566C-FF8B-4229-8C37-65282115B78B"] = true, 
-    ["0EB07BEE-0B73-48A9-8803-6BD1C43209EF"] = true, 
-    ["6E649713-277C-4D62-9466-B04A110E8A45"] = true, 
-    ["CA722ED1-0C04-44F2-8CA9-B3476B44B3EA"] = true, 
-    ["9CAD7046-D916-4296-8163-6DD5E61378CE"] = true, 
-    ["293E6198-5ACB-490E-B280-2D705823181C"] = true, 
-    ["DB0DCA2F-739A-4B5D-B878-53B36BDC00C8"] = true, 
-    ["7C1F20C8-117F-40AE-9218-150DB7D718D5"] = true, 
-    ["4538DDBD-495A-403C-859F-F759541D24AC"] = true, 
-    ["F1C507A3-ED09-4D3E-9289-538E5DB0DBE9"] = true, 
-    ["C101AA20-4311-44E7-8440-7ECD3A4E7652"] = true, 
-    ["AA87D34C-CC49-4E8C-BE3D-98D3D89CCF06"] = true, 
-    ["462E02AD-6ED5-4FA1-A47F-843B62C21C9C"] = true, 
-    ["CDDE9917-44E5-447F-B208-D42B2BA3EDA0"] = true, 
-    ["D433F21E-A45A-4D0D-89FE-E451ED8FE95C"] = true, 
-    ["F951912D-525B-49D1-986D-F7FD7CBD1C82"] = true, 
-    ["92A62C31-2D41-4A2B-9826-728A43EDF1DD"] = true, 
-    ["AFA21252-F34C-450F-AC2F-A1527FCABA13"] = true, 
-    ["AB4AEBB5-2F6D-4490-AFC1-633A1F8E7B0C"] = true, 
-    ["2A5091C7-A30C-4A3A-A0E5-2C0410BC4CA9"] = true, 
-    ["71422657-A190-4877-BF64-A31356FF5096"] = true, 
-    ["81D12462-56B1-4C8A-AF15-0AA669A4FF2F"] = true, 
-    ["50C88D93-AC13-4C12-82B9-FA20F1204FF0"] = true, 
-    ["6CF9F082-81B0-48DD-9D84-FC8CF150989E"] = true, 
-    ["781cb102-6583-4715-9a20-18ef97eac5ef"] = true, 
-    ["7C6A21D5-A2F9-4BB4-BC3C-B6F3C5784BE0"] = true, 
-    ["D19DED2D-B02A-4617-A15F-D0AD0889A7DA"] = true, 
-    ["6672048E-5ED7-47DA-9DDD-7270D1DD5DFC"] = true, 
-    ["6D827402-C16A-418B-ADC6-00B1B9816507"] = true, 
-    ["B4E0B06D-9CF3-481A-A217-C18BE7781E42"] = true, 
-    ["990E4E06-5A21-4E5A-A320-C1091BD174ED"] = true, 
-    ["3F21E861-A381-47B1-A9B8-ACB5BFD002F0"] = true, 
-    ["6AD552D0-8BEF-4760-A73F-4AD1E3138D18"] = true, 
-    ["1730300C-717D-4D67-8583-2DE3DAE227BD"] = true, 
-    ["C5D5BBD2-8CC9-4F1F-BDBE-DA0FF00662B5"] = true, 
-    ["32DFDCA3-4E70-47C5-929D-DDF0F4F661F9"] = true, 
-    ["44D6616C-BB3D-4E8A-923B-44259008FC6C"] = true, 
-    [game:GetService("RbxAnalyticsService"):GetClientId()] = true
-};
-local l_ClientId_0 = game:GetService("RbxAnalyticsService"):GetClientId();
-local v2 = false;
-pcall(function() --[[ Line: 0 ]] --[[ Name:  ]]
-    -- upvalues: v0 (ref), l_ClientId_0 (ref), v2 (ref)
-    if v0[l_ClientId_0] then
-        v2 = true;
-    end;
-end);
-if not v2 then
-    game.Players.LocalPlayer:Kick();
-    return;
-else
+
     local l_ScreenGui_0 = Instance.new("ScreenGui");
     local l_ImageButton_0 = Instance.new("ImageButton");
     local l_TextLabel_0 = Instance.new("TextLabel");
@@ -10147,4 +10087,3 @@ else
     end;
     coroutine.wrap(v1725)();
     return;
-end;
